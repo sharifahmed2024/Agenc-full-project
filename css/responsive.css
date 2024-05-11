@@ -1,0 +1,125 @@
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .navbar {
+    padding: 5px 0;
+    top: 0px;
+    background-color: rgb(138, 160, 249);
+  }
+
+  .navbar .navbar-toggler {
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .navbar .navbar-nav {
+    row-gap: 4px;
+    text-align: center;
+    margin: 12px 0 !important;
+  }
+
+  .navbar .navbar-collapse {
+    background-color: rgba(56, 111, 221, 0.662);
+  }
+
+  .navbar .contact a {
+    padding: 4px 8px;
+
+    color: #d4d4d4;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    line-height: 24px;
+    color: black;
+    font-weight: 500;
+  }
+  /* ------------------------------------------------------------------------------- */
+
+  #banner_part {
+    padding: 97px 0 120px;
+  }
+
+  #banner_part .container h1 {
+    font-size: 35px;
+    line-height: 104%;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: white;
+    max-width: 950px;
+    text-align: center;
+  }
+
+  #banner_part .container p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 19px;
+  }
+
+  #banner_part .container a {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 4px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: all linear 0.4s;
+  }
+
+  #banner_part .container a:hover {
+    background: rgba(238, 233, 233, 0.829);
+    color: black;
+  }
+
+  .banner_slider ul {
+    bottom: 35px;
+  }
+
+  /* ------------------------------------------------------------------------- */
+
+  #success_part {
+    padding: 50px 5px 0;
+  }
+
+  #success_part .container {
+    padding: 49px 20px;
+    border-radius: 10px;
+  }
+
+  #success_part .container .text {
+    justify-content: flex-start;
+    column-gap: 0;
+    margin-top: 13px;
+  }
+
+  #success_part .container .text p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #737373;
+    margin-top: 6px;
+  }
+
+  #success_part .container h3 {
+    font-weight: 400;
+    line-height: 100%;
+    font-size: 18px;
+  }
+
+  #success_part .container h2 {
+    font-size: 14px !important;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+
+  #success_part .container .text h4 {
+    font-size: 25px;
+  }
+  
+}
